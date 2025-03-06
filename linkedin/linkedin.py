@@ -10,7 +10,7 @@ from typing import Dict, List
 
 # Load credentials and URLs
 try:
-    with open(r'C:\Users\ASUS\Desktop\asda\data.json') as json_file:
+    with open(r'C:\Users\user\PycharmProjects\data_scrip\linkedin\credentials_and_urls.json') as json_file:
         data = json.load(json_file)
 except FileNotFoundError:
     print("Error: credentials_and_urls.json file not found")
