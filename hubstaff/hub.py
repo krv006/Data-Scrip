@@ -11,6 +11,7 @@ import os
 import signal
 import sys
 
+
 # Global variable to store freelancer data
 freelancer_data = []
 
